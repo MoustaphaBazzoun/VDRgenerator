@@ -6,7 +6,7 @@ VDRgenerator is a tool designed to automate the process of creating a data room 
 ### Using git
 1. Clone the repository:
 ```
-git clone https://github.com/MoustaphaBazzoun/VDRGenerator.git
+git clone https://github.com/MoustaphaBazzoun/VDRgenerator.git
 ```
 
 2. Navigate to the folder:
