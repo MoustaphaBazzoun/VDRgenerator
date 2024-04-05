@@ -13,6 +13,9 @@ app = typer.Typer()
 
 @app.command()
 def generate(filename_input):
+
+    os.mkdir("./DataRoom")
+
     df = pd.read_excel(str(filename_input), header=0, converters={"Number":str, "File":str})
 
     dfToDict = {}
