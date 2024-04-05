@@ -6,13 +6,17 @@ VDRgenerator is a tool designed to automate the process of creating a data room 
 ### Using git
 1. Clone the repository:
 ```
-git clone https://github.com/MoustaphaBazzoun/DataRoom-Generator.git
+git clone https://github.com/MoustaphaBazzoun/VDRGenerator.git
 ```
 
 2. Navigate to the folder:
-Navigate to the folder
 ```
 cd VDRgenerator
+```
+
+3. Install project dependencies:
+```
+pip install requirements.txt
 ```
 
 ### Downloading the ZIP file
@@ -24,9 +28,14 @@ cd VDRgenerator
 
 4. Open a terminal or command prompt and navigate to the extracted directory.
 
+5. Install project dependencies:
+```
+pip install requirements.txt
+```
+
 # Usage
 1. Put the excel sheet with the file structure inside the directory 
-2. pass the excel file name as a parameter (in this example, we are using duediligence.xlsx)
+2. pass the excel file name as a parameter (in this example, we are using vdrStructure.xlsx)
 
 ```
 python3 dataroom-generator.py generate vdrStructure.xlsx
