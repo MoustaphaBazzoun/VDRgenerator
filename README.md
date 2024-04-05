@@ -1,21 +1,28 @@
 # Virtual-DataRoom-Generator
 VDRgenerator is a tool designed to automate the process of creating a data room folder directory in your computer. It simplifies the often repetitive task of setting up folder structures for virtual data rooms, commonly used in M&A and Private Equity transactions.
 
-# Installation
-If you have git on your machine:
+## Installation
+- If you don't have git installed just follow the 'Downloading the ZIP file' step by step
+### Using git
+1. Clone the repository:
 ```
 git clone https://github.com/MoustaphaBazzoun/DataRoom-Generator.git
 ```
 
+2. Navigate to the folder:
 Navigate to the folder
 ```
 cd VDRgenerator
 ```
 
-if not, you can manually download it with the following steps:
-1-Click on the "code" button above
-2-Download the zip folder
-3-Unzip it anywhere you want to use it
+### Downloading the ZIP file
+1. Click on the green "Code" button.
+
+2. Select "Download ZIP".
+
+3. Extract the downloaded ZIP file to your desired location.
+
+4. Open a terminal or command prompt and navigate to the extracted directory.
 
 # Usage
 There are two main functionalities:
