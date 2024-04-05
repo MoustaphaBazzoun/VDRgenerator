@@ -16,7 +16,7 @@ cd VDRgenerator
 
 3. Install project dependencies:
 ```
-pip install requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ### Downloading the ZIP file
@@ -30,7 +30,7 @@ pip install requirements.txt
 
 5. Install project dependencies:
 ```
-pip install requirements.txt
+pip3 install -r requirements.txt
 ```
 
 # Usage
