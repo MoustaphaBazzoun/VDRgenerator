@@ -25,19 +25,11 @@ cd VDRgenerator
 4. Open a terminal or command prompt and navigate to the extracted directory.
 
 # Usage
-There are two main functionalities:
-### Dataroom File Directory Generator
-
-
-```
-python3 dataroom-generator.py generate duediligence.xlsx
-```
-
-### Files Auto-Sorter
-Once you have new files you want to upload in your dataroom, instead of manually navigating folders, just 
+1. Put the excel sheet with the file structure inside the directory 
+2. pass the excel file name as a parameter (in this example, we are using duediligence.xlsx)
 
 ```
-python3 dataroom-generator.py autosorter
+python3 dataroom-generator.py generate vdrStructure.xlsx
 ```
 
 # Contributing
